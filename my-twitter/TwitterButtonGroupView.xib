@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TwitterButtonGroupView" customModule="my_twitter" customModuleProvider="target">
+            <connections>
+                <outlet property="favoriteButton" destination="Dti-4Q-PuO" id="wxj-4R-nfy"/>
+                <outlet property="replyButton" destination="CRc-RN-EUg" id="neV-uo-KvV"/>
+                <outlet property="retweetButton" destination="CyF-Jh-ifs" id="5Ky-6Z-9Hz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dti-4Q-PuO" customClass="HighlightButton" customModule="my_twitter" customModuleProvider="target">
+                    <rect key="frame" x="127" y="10" width="55" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Favorite">
+                        <color key="titleColor" red="0.40000000000000002" green="0.45882352939999999" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRc-RN-EUg" customClass="HighlightButton" customModule="my_twitter" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="39" height="50"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Reply">
+                        <color key="titleColor" red="0.40000000000000002" green="0.45882352939999999" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyF-Jh-ifs" customClass="HighlightButton" customModule="my_twitter" customModuleProvider="target">
+                    <rect key="frame" x="55" y="10" width="56" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Retweet">
+                        <color key="titleColor" red="0.40000000000000002" green="0.45882352939999999" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="CyF-Jh-ifs" firstAttribute="leading" secondItem="CRc-RN-EUg" secondAttribute="trailing" constant="16" id="4SS-zD-ee0"/>
+                <constraint firstItem="Dti-4Q-PuO" firstAttribute="leading" secondItem="CyF-Jh-ifs" secondAttribute="trailing" constant="16" id="LEE-XC-LO9"/>
+                <constraint firstItem="Dti-4Q-PuO" firstAttribute="centerY" secondItem="CRc-RN-EUg" secondAttribute="centerY" id="MAh-HL-FpI"/>
+                <constraint firstItem="CRc-RN-EUg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yak-d8-9Fs"/>
+                <constraint firstItem="CRc-RN-EUg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ojJ-Og-afJ"/>
+                <constraint firstItem="CyF-Jh-ifs" firstAttribute="centerY" secondItem="CRc-RN-EUg" secondAttribute="centerY" id="pCy-10-UO6"/>
+                <constraint firstAttribute="bottom" secondItem="CRc-RN-EUg" secondAttribute="bottom" id="r8h-XY-eQP"/>
+                <constraint firstAttribute="trailing" secondItem="Dti-4Q-PuO" secondAttribute="trailing" id="tfR-Rr-y2R"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="tfR-Rr-y2R"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-27" y="216"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TweetTableViewCell.tweet.didset:TweetTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tweet.createAt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TwitterClient.openUrl(NSURL?) -&gt; ():TwitterClient.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "urlComponents.queryItems">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HighlightButton.isClicked.didset:HighlightButton.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.highlighted">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TwitterButtonGroupView.loadViewFromNib() -&gt; UIView:TwitterButtonGroupView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "temp.count">
+            </PersistentString>
+            <PersistentString
+               value = "nib.instantiateWithOwner(self, options: nil)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.application(UIApplication, openURL : NSURL, sourceApplication : String?, annotation : AnyObject) -&gt; Bool:AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSURLComponents(string: url)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
